@@ -11,7 +11,7 @@ namespace MinecraftColorSimilarTest
     {
         static void Main(string[] args)
         {
-            string str = MinecraftColorSimilar.MinecraftColorSimilar.GetSimilarColorBlockName(133, 46, 251);
+            string str = new MinecraftColorSimilar.MinecraftColorSimilar().GetSimilarColorBlockName(133, 46, 251);
             Console.WriteLine(str);
             Console.ReadLine();
         }

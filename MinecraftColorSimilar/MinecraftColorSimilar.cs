@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
+using System.Runtime.InteropServices;
 
 namespace MinecraftColorSimilar
 {
-    public static class MinecraftColorSimilar
+    [ClassInterface(ClassInterfaceType.None)]
+    public class MinecraftColorSimilar
     {
         #region 颜色定义
         static ColorBlock WhiteWool = new ColorBlock(0xE9ECEC, "white_wool");
@@ -40,7 +42,7 @@ namespace MinecraftColorSimilar
         /// <param name="green">绿色。</param>
         /// <param name="blue">蓝色。</param>
         /// <returns></returns>
-        public static string GetSimilarColorBlockName(uint red, uint green, uint blue)
+        public string GetSimilarColorBlockName(uint red, uint green, uint blue)
         {
             if (!(red <= 255 && green <= 255 && blue <= 255))
             {
