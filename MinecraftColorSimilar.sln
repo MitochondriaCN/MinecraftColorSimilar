@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftColorSimilar", "MinecraftColorSimilar\MinecraftColorSimilar.csproj", "{9BC19480-C1F0-4F2D-90C6-108E2553F68D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftColorSimilarTest", "MinecraftColorSimilarTest\MinecraftColorSimilarTest.csproj", "{F6D9442F-00EE-47C7-BB69-09ACD2D6F15D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BC19480-C1F0-4F2D-90C6-108E2553F68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC19480-C1F0-4F2D-90C6-108E2553F68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC19480-C1F0-4F2D-90C6-108E2553F68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC19480-C1F0-4F2D-90C6-108E2553F68D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D9442F-00EE-47C7-BB69-09ACD2D6F15D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D9442F-00EE-47C7-BB69-09ACD2D6F15D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D9442F-00EE-47C7-BB69-09ACD2D6F15D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D9442F-00EE-47C7-BB69-09ACD2D6F15D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81F4062A-8BBB-4B0C-A8D9-A450953C226B}
+	EndGlobalSection
+EndGlobal
